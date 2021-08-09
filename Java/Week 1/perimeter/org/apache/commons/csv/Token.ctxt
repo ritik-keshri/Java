@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Token
+comment0.text=\n\ Internal\ token\ representation.\n\ <p/>\n\ It\ is\ used\ as\ contract\ between\ the\ lexer\ and\ the\ parser.\n\n\ @version\ $Id\:\ Token.java\ 1509069\ 2013-08-01\ 02\:04\:27Z\ ggregory\ $\n
+comment1.params=
+comment1.target=void\ reset()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Eases\ IDE\ debugging.\n\n\ @return\ a\ string\ helpful\ for\ debugging.\n
+numComments=3

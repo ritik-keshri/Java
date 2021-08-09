@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ImageFrame
+comment0.text=\n\ This\ utility\ class\ implements\ a\ panel\ for\ displaying\ an\ image.\n\ \n\ @author\ Duke\ Software\ Team\n\ \n\ \ \ \ \ \ \ \ \ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\n\ \ \ \ \ \ \ \ \ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\n
+comment1.params=fileName\ image
+comment1.target=ImageFrame(java.lang.String,\ java.awt.Image)
+comment1.text=\n\ Creates\ an\ ImageFrame.\n
+comment2.params=image
+comment2.target=void\ show(java.awt.Image)
+comment2.text=\n\ Displays\ an\ image\ in\ this\ frame.\n
+numComments=3

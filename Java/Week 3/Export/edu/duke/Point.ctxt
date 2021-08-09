@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Point
+comment0.text=\n\ The\ <code>Point</code>\ class\ represents\ a\ two-dimensional\ location,\ constructed\ from\ (x,y)\ \n\ coordinates\ with\ some\ methods\ for\ access\ and\ the\ capability\ to\ calculate\ the\ distance\ from\ \n\ this\ point\ to\ another\ point.\n\ \n\ <P>\n\ Example\ usage\:\n\ \n\ <PRE>\n\ Point\ a\ \=\ new\ Point(3,\ 4);\n\ Point\ b\ \=\ new\ Point(2,\ 5);\n\ double\ dist\ \=\ a.distance(b);\n\ </PRE>\n\ \n\ <P>\n\ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\n\ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\n\ \n\ @author\ Duke\ Coursera\ Team\n
+comment1.params=startx\ starty
+comment1.target=Point(int,\ int)
+comment1.text=\n\ Create\ a\ <code>Point</code>\ object\ from\ x\ and\ y\ coordinates.\n\ \n\ @param\ startx\ is\ the\ x-coordinate\n\ @param\ starty\ is\ the\ y-coordinate\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\n\ Returns\ the\ x\ coordinate\ of\ this\ point.\n\ \n\ @return\ x\ coordinate\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\n\ Returns\ the\ y\ coordinate\ of\ this\ point.\n\ \n\ @return\ y\ coordinate\n
+comment4.params=otherPt
+comment4.target=double\ distance(edu.duke.Point)
+comment4.text=\n\ Calculate\ and\ return\ the\ Euclidean\ distance\ from\ this\ point\ to\ another\ point.\n\ \n\ @param\ otherPt\ the\ other\ point\ to\ which\ distance\ is\ calculated\n\ @return\ the\ distance\ from\ this\ point\ to\ otherPt\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ a\ string\ representation\ of\ this\ point.\n\ \n\ @return\ (x,y)\ for\ this\ point.\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Assertions
+comment0.text=\n\ Utility\ class\ for\ input\ parameter\ validation.\n\n\ TODO\ Replace\ usage\ with\ {@link\ Objects}\ when\ we\ switch\ to\ Java\ 7.\n\n\ @version\ $Id\:\ Assertions.java\ 1742459\ 2016-05-05\ 19\:43\:57Z\ britter\ $\n
+comment1.params=
+comment1.target=Assertions()
+comment2.params=parameter\ parameterName
+comment2.target=void\ notNull(java.lang.Object,\ java.lang.String)
+numComments=3

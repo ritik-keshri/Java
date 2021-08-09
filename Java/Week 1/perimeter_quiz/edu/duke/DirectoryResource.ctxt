@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DirectoryResource
+comment0.text=\n\ The\ <code>DirectoryResource</code>\ class\ allows\ the\ user\ to\ choose\ one\ or\ more\ files\ from\ a\n\ directory\ (or\ folder)\ with\ a\ file\ selection\ dialog\ box\ by\ using\ the\ method\n\ <code>selectedFiles</code>.\ These\ files\ can\ then\ be\ iterated\ over\ using\ a\ <code>for</code>\ loop.\n\ \n\ <P>\n\ Example\ usage\:\n\ \n\ <PRE>\n\ DirectoryResource\ dr\ \=\ new\ DirectoryResource();\n\ for\ (File\ f\ \:\ dr.selectedFiles())\ {\n\ \ \ \ \ ImageResource\ ir\ \=\ new\ ImageResource(f);\n\ \ \ \ \ ir.draw();\n\ }\n\ </PRE>\n\n\ <P>\n\ This\ software\ is\ licensed\ with\ an\ Apache\ 2\ license,\ see\n\ http\://www.apache.org/licenses/LICENSE-2.0\ for\ details.\n\ \n\ @author\ Duke\ Software\ Team\n
+comment1.params=
+comment1.target=DirectoryResource()
+comment1.text=\n\ Create\ a\ <code>DirectoryResource</code>\ object.\n\ \n\ Creating\ a\ <code>DirectoryResource</code>\ object\ does\ not\ open\ a\ dialog\ box\ for\ selecting\n\ files.\n
+comment2.params=
+comment2.target=java.lang.Iterable\ selectedFiles()
+comment2.text=\n\ Open\ a\ file\ selection\ dialog\ box\ to\ allow\ the\ user\ to\ navigate\ to\ a\ directory\ and\ select\ one\n\ or\ more\ files\ from\ the\ chosen\ directory\ (or\ folder).\n\ \n\ The\ file\ selection\ dialog\ box\ opened\ starts\ in\ the\ current\ project\ folder.\n\ \n\ @return\ an\ <code>Iterable</code>\ that\ accesses\ the\ chosen\ files\ one\ at\ a\ time\n
+numComments=3
